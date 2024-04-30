@@ -1,6 +1,7 @@
 name: Test code base
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - trunk
